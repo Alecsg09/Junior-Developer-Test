@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 50px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.brand {
+    font-size: 44px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px; 
+    margin-right: 10px;
+}
+
+.buttons button {
+    padding: 12px 24px; 
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+footer {
+    margin-top: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.footer-content {
+    font-size: 18px;
+    color: black;
+}
